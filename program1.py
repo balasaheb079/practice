@@ -128,12 +128,28 @@ def main():
     print("Margherita is vegetarian?", Pizza.is_vegetarian(margh.toppings))
 
     # Magic methods
-    v1 = Vector(1, 2)
+    v1 = Vector(1, 3)
     v2 = Vector(3, 4)
     print("v1 + v2 =", v1 + v2)
 
-
+# testing
 if __name__ == "__main__":
     main()
 
 
+
+# lines below are for testing purposes only
+def add(a, b):
+    return a + b
+def subtract(a, b):
+    return a - b
+def multiply(a, b):
+    return a * b
+def divide(a, b):
+    if b == 0:
+        raise ValueError("Cannot divide by zero")
+    return a / b
+def modulus(a, b):
+    return a % b
+def power(a, b):
+    return a ** b
