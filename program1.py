@@ -153,6 +153,13 @@ def modulus(a, b):
     return a % b
 def power(a, b):
     return a ** b
+
+# d
+# a
+# ssa
+# s
+# ss
+
 # # nknkn
 # sortedds
 # dsd
