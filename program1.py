@@ -9,9 +9,9 @@ class Person:
     def __init__(self, name: str, age: int):
         self.name = name
         self.age = age
-
+# comment
     def greet(self):
-        return f"Hi, I'm {self.name} and I'm {self.age}."
+        return f"Hi, I am {self.name} and I'm {self.age}."
 
 
 # 2) Encapsulation (private attribute + property)
