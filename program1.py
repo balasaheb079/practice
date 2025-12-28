@@ -52,7 +52,7 @@ class Dog(Animal):
 
 class Cat(Animal):
     def speak(self) -> str:
-        return "Meow!"
+        return "Meow!!"
 
 
 # 4) Composition (has-a relationship)
@@ -128,8 +128,8 @@ def main():
     print("Margherita is vegetarian?", Pizza.is_vegetarian(margh.toppings))
 
     # Magic methods
-    v1 = Vector(1, 3)
-    v2 = Vector(3, 4)
+    v1 = Vector(1, 2)
+    v2 = Vector(3, 9)
     print("v1 + v2 =", v1 + v2)
 
 # testing
