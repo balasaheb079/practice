@@ -12,7 +12,7 @@ class Person:
 
     def greet(self):
         return f"Hi, I'm {self.name} and I'm {self.age}."
-
+#second comment
 
 # 2) Encapsulation (private attribute + property)
 class BankAccount:
@@ -135,3 +135,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
