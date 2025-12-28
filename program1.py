@@ -129,7 +129,7 @@ def main():
 
     # Magic methods
     v1 = Vector(1, 3)
-    v2 = Vector(3, 4)
+    v2 = Vector(3, 5)
     print("v1 + v2 =", v1 + v2)
 
 # testing
@@ -138,7 +138,7 @@ if __name__ == "__main__":
 
 
 
-# lines below are for testing purposes only
+# lines below are for testing purposes 
 def add(a, b):
     return a + b
 def subtract(a, b):
